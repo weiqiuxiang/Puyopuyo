@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObj">
+      <UniqueIdentifier>{e1fa828e-05cb-49fc-8c1d-d681ab33ce96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GUI">
+      <UniqueIdentifier>{c1bc9198-7637-40ec-8e24-2b50c2493f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\SceneManager">
+      <UniqueIdentifier>{a485191b-dea4-4782-9783-604e1ae8ebb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\SpecialHeader">
+      <UniqueIdentifier>{6272b617-152b-42ab-9eaf-c99bfa7a4021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{f613ba55-e485-4038-ab2f-627095788598}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceFile\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\GameObj\Collision.cpp">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\GameObj\ControlHelp.cpp">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\GameObj\DataExchange.cpp">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\GameObj\GameOverDirection.cpp">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\GameObj\Ghost.cpp">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\GameObj\ParticleMaker.cpp">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\GameObj\Score.cpp">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\GameObj\Stage.cpp">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\GUI\Gui.cpp">
+      <Filter>ソース ファイル\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\GUI\GuiButton.cpp">
+      <Filter>ソース ファイル\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\System\DrawMethod.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\System\FPS.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\System\Input.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\SceneManager\SceneGame.cpp">
+      <Filter>ソース ファイル\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\SceneManager\SceneManager.cpp">
+      <Filter>ソース ファイル\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\SceneManager\SceneTitle.cpp">
+      <Filter>ソース ファイル\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\GameObj\Puyo.cpp">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\GameObj\KillPuyoEffect.cpp">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\GameObj\NextPuyo.cpp">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceFile\Common.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\GameObj\Collision.h">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\GameObj\ControlHelp.h">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\GameObj\DataExchange.h">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\GameObj\GameOverDirection.h">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\GameObj\Ghost.h">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\GameObj\ParticleMaker.h">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\GameObj\Score.h">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\GameObj\Stage.h">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\GUI\Gui.h">
+      <Filter>ソース ファイル\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\GUI\GuiButton.h">
+      <Filter>ソース ファイル\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\System\DrawMethod.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\System\FPS.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\System\Input.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\SpecialHeader\StructHeader.h">
+      <Filter>ソース ファイル\SpecialHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\SceneManager\SceneBase.h">
+      <Filter>ソース ファイル\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\SceneManager\SceneGame.h">
+      <Filter>ソース ファイル\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\SceneManager\SceneManager.h">
+      <Filter>ソース ファイル\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\SceneManager\SceneTitle.h">
+      <Filter>ソース ファイル\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\GameObj\Puyo.h">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\GameObj\KillPuyoEffect.h">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\GameObj\NextPuyo.h">
+      <Filter>ソース ファイル\GameObj</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
